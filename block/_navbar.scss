@@ -1,0 +1,79 @@
+  @import "./block" ;
+
+  body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Barlow', sans-serif;
+  background-color: #fefcf7; 
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem 4rem;
+  background-color: inherit;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  font-weight: 900;
+  font-size: 1.2rem;
+  color: #333;
+
+  img {
+    margin-right: 0.75rem;
+    height: 24px;
+  }
+
+  span {
+    font-family: 'Fraunces', serif; 
+    color: #333d4b;
+  }
+}
+
+.nav-links {
+  display: flex;
+  gap: 2rem;
+
+  a {
+    text-decoration: none;
+    color: #83888f;
+    font-weight: 700;
+    font-size: 0.75rem;
+    letter-spacing: 1px;
+
+    &:hover {
+      color: #333d4b;
+    }
+  }
+}
+
+
+.btn {
+  background-color: primary-color;
+  color: text-color;
+  padding: padding;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  
+
+  &:hover {
+    opacity: 0.8;
+  }
+
+  
+  &.danger {
+    background-color: danger-color;
+  }
+
+
+}
+
+
+
+
+
+
