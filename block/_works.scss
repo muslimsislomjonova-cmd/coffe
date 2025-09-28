@@ -1,0 +1,87 @@
+.how-it-works {
+  padding: 80px 60px;
+  background-color: #fdfcf9;
+  text-align: center;
+
+  h2 {
+    font-size: 24px;
+    font-weight: 700;
+    color: #555555;
+    margin-bottom: 60px;
+  }
+
+  .steps-line {
+    position: relative;
+    height: 40px;
+    margin-bottom: 60px;
+
+    .line {
+      position: absolute;
+      top: 18px;
+      left: 80px;
+      right: 80px;
+      height: 2px;
+      background-color: #e3c9b0;
+ 
+    }
+
+    .circle {
+      width: 20px;
+      height: 20px;
+      background-color: #fdfcf9;
+      border: 2px solid #53a89b;
+      border-radius: 50%;
+      display: inline-block;
+      position: relative;
+      margin:  120px;
+    }
+  }
+
+  .steps {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+
+    .step {
+      max-width: 300px;
+      text-align: left;
+
+      .number {
+        font-size: 36px;
+        color: #f8cfa0;
+        font-weight: 900;
+        margin-bottom: 10px;
+      }
+
+
+      .title {
+        font-size: 20px;
+        font-weight: 800;
+        color: #2d2d2d;
+        margin-bottom: 14px;
+      }
+
+      .desc {
+        font-size: 14px;
+        color: #666666;
+        line-height: 1.6;
+        margin-bottom: 20px;
+      }
+
+      .btn {
+        display: inline-block;
+        background-color: #53a89b;
+        color: #ffffff;
+        font-weight: 600;
+        font-size: 14px;
+        padding: 12px 24px;
+        border-radius: 4px;
+        text-decoration: none;
+
+        &:hover {
+          background-color: #489587;
+        }
+      }
+    }
+  }
+}
