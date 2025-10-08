@@ -1,7 +1,8 @@
 .how-it-works {
   padding: 80px 60px;
-  background-color: #fdfcf9;
+  background-color: hsl(45, 100%, 99%);
   text-align: center;
+  margin: auto;
 
   h2 {
     font-size: 24px;
@@ -12,6 +13,7 @@
 
   .steps-line {
     position: relative;
+    margin: auto;
     height: 40px;
     margin-bottom: 60px;
 
@@ -27,6 +29,7 @@
 
     .circle {
       width: 20px;
+      margin: auto;
       height: 20px;
       background-color: #fdfcf9;
       border: 2px solid #53a89b;
@@ -39,6 +42,7 @@
 
   .steps {
     display: flex;
+    margin: auto;
     justify-content: space-between;
     gap: 40px;
 
